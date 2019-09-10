@@ -11,7 +11,7 @@ class Vertice
     double x,y;
     friend class ConstructorFigura;
 public:
-    Vertice(double _x,double _y);
+    Vertice(double _x,double _y):x(_x),y(_y){}
     Vertice(const Vertice&);
     double valorcoordenadas(double,double)const;
 
